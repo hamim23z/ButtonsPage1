@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+    margin: 0;
+    left: 0;
+    color: white;
+    right: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+body {
+    overflow-y: "scroll";
+    background-color: #A0AECD;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 25px;
+    color: black;
+}
+
+/*First Ten*/
+
+.firstten {
+    margin-top: 25px;
+    margin-left: 25px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.firstten button{
+    color: #1BA098;
+    background-color: #051622;
+    box-sizing: border-box;
+    font-size: 27px;
+}
+
+.firstten .rounded {
+    border-radius: 15px;
+}
+
+/*Second Ten*/
+
+.secondten {
+    margin-top: 25px;
+    margin-left: 25px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.secondten button{
+    color: #1BA098;
+    background-color: #051622;
+    box-sizing: border-box;
+    font-size: 27px;
+}
+
+.secondten .coloredborder {
+    background-color: #051622;
+    color: #1BA098;
+    border: 2px solid green;
+}
+
+
+/*Third Ten*/
+
+.thirdten {
+    margin-top: 25px;
+    margin-left: 25px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.thirdten button{
+    color: #1BA098;
+    background-color: #051622;
+    box-sizing: border-box;
+    font-size: 27px;
+}
+
+.thirdten .hover{
+    transition-duration: 0.5s;
+}
+
+.hover:hover {
+    background-color: lightblue;
+    color: black;
+}
+
+/*Fourth Ten*/
+
+.fourthten {
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.fourthten button{
+    color: #1BA098;
+    background-color: #051622;
+    box-sizing: border-box;
+    font-size: 27px;
+}
+
+.press:hover {
+    background: lightblue;
+}
+
+.press:active {
+    background: lightblue;
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+}
+
+
+/*Fifth Ten*/
+
+.fifthten {
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.fifthten button{
+    color: #1BA098;
+    background-color: #051622;
+    box-sizing: border-box;
+    font-size: 27px;
+    opacity: 0.6;
+}
+
+.fifthten .fadein:hover{
+    opacity: 1;
+}
+
+.image {
+    text-align: center;
+}
